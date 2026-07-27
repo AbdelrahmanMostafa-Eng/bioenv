@@ -8,7 +8,7 @@ If you discover a security vulnerability in `BioEnv`, please report it to us as 
 
 Please report vulnerabilities by sending an email to:
 
-`AbdelrahmanMostafa-Eng@users.noreply.github.com`
+`abdelrahmanmostafa.eng@outlook.com`
 
 In your report, please include:
 
