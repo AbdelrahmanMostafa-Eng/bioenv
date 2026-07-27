@@ -6,7 +6,7 @@ Please take a moment to review this document to understand how to contribute eff
 
 ## Code of Conduct
 
-This project adheres to a [Code of Conduct](https://github.com/AbdelrahmanMostafa-Eng/bioenv/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to AbdelrahmanMostafa-Eng@users.noreply.github.com.
+This project adheres to a [Code of Conduct](https://github.com/AbdelrahmanMostafa-Eng/bioenv/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to abdelrahmanmostafa.eng@outlook.com.
 
 ## How Can I Contribute?
 
