@@ -1,0 +1,2 @@
+disallowed-names = ["toto", "titi", "tata"]
+cognitive-complexity-threshold = 20
