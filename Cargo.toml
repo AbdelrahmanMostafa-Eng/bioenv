@@ -1,7 +1,7 @@
 [package]
 name = "bioenv"
 version = "0.1.0"
-authors = ["Abdelrahman <AbdelrahmanMostafa-Eng@users.noreply.github.com>"]
+authors = ["Abdelrahman <abdelrahmanmostafa.eng@outlook.com>"]
 edition = "2021"
 description = "A production-ready, biometric-gated local secret injector CLI."
 repository = "https://github.com/AbdelrahmanMostafa-Eng/bioenv"
