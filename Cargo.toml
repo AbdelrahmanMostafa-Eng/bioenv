@@ -1,0 +1,55 @@
+[package]
+name = "bioenv"
+version = "0.1.0"
+authors = ["Abdelrahman <AbdelrahmanMostafa-Eng@users.noreply.github.com>"]
+edition = "2021"
+description = "A production-ready, biometric-gated local secret injector CLI."
+repository = "https://github.com/AbdelrahmanMostafa-Eng/bioenv"
+license = "MIT"
+readme = "README.md"
+keywords = ["security", "cli", "secrets", "biometrics", "keychain"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+# CLI Parsing
+clap = { version = "4.4", features = ["derive", "env"] }
+
+# Security & Secrets
+keyring = "2.3"
+zeroize = { version = "1.7", features = ["derive"] }
+secrecy = { version = "0.8", features = ["serde"] }
+rpassword = "7.3"
+sha2 = "0.10"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+hex = "0.4"
+
+# Error Handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Environment & Config
+dotenvy = "0.15"
+dialoguer = { version = "0.11", features = ["password"] }
+directories = "5.0"
+
+# Logging & Telemetry
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Async & Process
+tokio = { version = "1.35", features = ["full"] }
+which = "5.0"
+
+[dev-dependencies]
+tempfile = "3.9"
+mockall = "0.12"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = 'abort'
+strip = true
